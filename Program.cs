@@ -14,7 +14,7 @@
             Console.ReadLine();
         }
 
-        private static void InitialQuery()
+        static void InitialQuery()
         {
             Console.WriteLine("So who am I speaking to? ");
             string userName = Console.ReadLine();
@@ -24,7 +24,7 @@
                               " years old. I doubt that, let's see here...");
         }
 
-        private static void SarcasticResponse()
+        static void SarcasticResponse()
         {
             String name = "Mig";
             int age = 10;
